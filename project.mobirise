@@ -40,7 +40,7 @@
         "url": "https://fonts.googleapis.com/css?family=Abril+Fatface:400"
       }
     ],
-    "uniqCompNum": 4,
+    "uniqCompNum": 3,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/2-128x67.png",
@@ -1245,7 +1245,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Conoce al paciente",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1506,6 +1506,7 @@
           "_name": "slider1",
           "_customHTML": "<section class=\"carousel slide\" group=\"Sliders & Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"carousel\" title=\"Slides\" name=\"slides\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-carousel=\"slides\" class=\"full-screen\" mbr-carousel-embedded></div>\n\n</section>",
           "_cid": "rBMxOkoKbl",
+          "_anchor": "slider1-0",
           "_protectedParams": [
             "slides__autoplay",
             "slides__autoplayInterval",
@@ -1554,8 +1555,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ]
-          },
-          "_anchor": "slider1-0"
+          }
         },
         {
           "alias": false,
@@ -2611,7 +2611,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Semana 2",
-        "order": 4
+        "order": 3
       },
       "components": [
         {
@@ -3221,13 +3221,72 @@
             "background-color": "@bgColor",
             ".mbr-text, blockquote": {
               "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"3\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><b>Cuadripeljia:</b></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rBMPjVlRCt",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-2"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(0deg, @color2, @bgColor)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"82\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cc2952\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/cuadri-1776x999.png\" width=\"1400\" alt=\"Mobirise\" title>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        Create awesome websites!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
+          "_cid": "rBMOOJB0n7",
+          "_anchor": "image3-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
             },
             ".mbr-text": {
               "color": "#232323"
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"3\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><i><b>CUADRIPLEJIA:\n</b></i></p><p></p><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;DEFINICIÓN\n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;También llamado “tetraplejia”, es una parálisis causada por una lesión medular que afecta la parte superior del &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cuerpo (brazos y manos), el tronco, los órganos pélvicos y la parte inferior del cuerpo (piernas y pies) [1][2].\n</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Algunos de los síntomas que puede dar aviso de sufrir una lesión medular luego de un accidente son: dolor de &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;espalda intenso; presión en el cuello, la cabeza o la espalda; parálisis en cualquier parte del cuerpo; entumecimiento; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hormigueo o pérdida de sensibilidad en las manos, los dedos, los pies o los dedos de los pies; dificultad para &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mantener el equilibrio y caminar e insuficiencia respiratoria luego de la lesión [2].\n</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La gravedad de la lesión puede ser: completa, si toda la sensación (función sensorial) y toda la capacidad para &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;controlar el movimiento se pierden por debajo de la lesión de la médula espinal, puede ser también calificado como &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ASIA A; o incompleta, si tienes cierta actividad motora o sensorial debajo de la zona afectada, esta tiene diferentes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;grados de severidad: ASIA B significa que tiene sensación pero no movimiento de los músculos por debajo de su &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nivel de lesión, ASIA C tiene movimiento muscular débil por debajo de su nivel de lesión, ASIA D tiene movimiento &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;muscular fuerte por debajo de su nivel de lesión y ASIA E tiene las funciones sensitivas y motoras normales [1].\n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;CAUSAS \n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Puede producirse por el daño a las vértebras, los ligamentos o los discos de la columna vertebral, o a la misma &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;médula espinal. La cuadriplejia puede ser causada de forma traumática o no traumática. Una lesión traumática de la &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;médula espinal puede originarse a raíz de un golpe repentino a la columna vertebral que fracture, disloque, aplaste o &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;comprima una o más vértebras, puede producirse por algún accidente automovilístico, actos de violencia, lesiones al &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;practicar deportes o caídas. Generalmente, se producen daños adicionales después de días o semanas debido al &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sangrado, a la inflamación y a la acumulación de líquido en la médula espinal y a su alrededor. Una lesión no &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;traumática de la médula espinal puede ser causada por alguna enfermedad como artritis, osteoporosis, cáncer; o &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;una inflamación, infección o degeneración de los discos de la columna vertebral [2][3].\n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;TRATAMIENTO \n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hasta el momento lamentablemente no hay manera de revertir el daño a la médula espinal. El trato que se le da a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;una persona es generalmente para la prevención de más lesiones y para el fortalecimiento de las extremidades. Se &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;está trabajando en nuevos tratamientos como prótesis y medicamentos capaces de promover la regeneración de las &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;neuronas o de mejorar la actividad de los nervios que no se dañaron después de una lesión de la médula espinal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2][1].\n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;CONSECUENCIAS\n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La cuadriplejia genera un cambio drástico en la vida de las personas ya que se pierde la capacidad de movimiento y &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sensibilidad, así como la capacidad de sentir calor, frío y el tacto. También produce cambios en la función y &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sensibilidad sexual como en la fertilidad. En casos más drásticos se pierde el control intestinal y de la vejiga; se &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;produce espasmos o reflejos exagerados; dificultad para respirar, toser o eliminar las secreciones de los pulmones y &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dolores en la zona afectada [1].\n</div><div><br></div><div><b>ESPASTICIDAD:\n</b></div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La espasticidad es un conjunto de distintos fenómenos, estos se designan; positivos tónicos, fásicos y también &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;negativos. Es común que esta se de una vez que el shock espinal termine [4]. \n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;SÍNTOMAS\n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&nbsp;Hipertonía</b>: Crecimiento exagerado del tono muscular percibido como una sensación de resistencia aumentada al &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;movilizar pasivamente un segmento de la extremidad del paciente relajado. \n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Espasmos</b>: Contracción muscular involuntaria y brusca. Se puede desarrollar un patrón de flexión o extensión y &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pueden reducir gradualmente la calidad de vida del paciente.                                          Clonus: Contracción muscular rítmica e involuntaria &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;que provoca vibraciones en las articulaciones distales.\n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Hiperreflexia</b>: Aumento exagerado de la función refleja, tanto propioceptiva como cutánea del paciente, debido a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;una falta de inhibición de las vías descendentes o medulares.</div><div><br></div><div>             \n</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&nbsp;Coactivación muscular</b>: Contracción involuntaria y simultánea de grupos musculares antagonistas, causada por &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;una reducción en los mecanismos de inhibición recíproca. Este síntoma interrumpe la funcionalidad y movimiento &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;normal [4]. &nbsp;</div><p></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"3\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b style=\"font-size: 1rem;\">ESPASTICIDAD:</b><br></p><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La espasticidad es un conjunto de distintos fenómenos, estos se designan; positivos tónicos, fásicos y también &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;negativos. Es común que esta se de una vez que el shock espinal termine [4]. \n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;SÍNTOMAS\n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&nbsp;Hipertonía</b>: Crecimiento exagerado del tono muscular percibido como una sensación de resistencia aumentada al &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;movilizar pasivamente un segmento de la extremidad del paciente relajado. \n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Espasmos</b>: Contracción muscular involuntaria y brusca. Se puede desarrollar un patrón de flexión o extensión y &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pueden reducir gradualmente la calidad de vida del paciente.                                          Clonus: Contracción muscular rítmica e involuntaria &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;que provoca vibraciones en las articulaciones distales.\n</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Hiperreflexia</b>: Aumento exagerado de la función refleja, tanto propioceptiva como cutánea del paciente, debido a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;una falta de inhibición de las vías descendentes o medulares.</div><div><br></div><div>             \n</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&nbsp;Coactivación muscular</b>: Contracción involuntaria y simultánea de grupos musculares antagonistas, causada por &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;una reducción en los mecanismos de inhibición recíproca. Este síntoma interrumpe la funcionalidad y movimiento &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;normal [4]. &nbsp;</div><p></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rBlQL8tChq",
           "_anchor": "content1-u",
           "_protectedParams": [],
@@ -3694,11 +3753,11 @@
           "_name": "image1",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/8163d5e5-493e-49ba-b3e9-dfb0312fc24d-1056x816.jpg\" width=\"1400\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
           "_cid": "rBMFiRdhGp",
+          "_anchor": "image1-3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image1-3"
+          "_params": {}
         },
         {
           "alias": false,
@@ -3729,11 +3788,11 @@
           "_name": "content9",
           "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>En el Perú cada año existen más de 200 pacientes que llegan al Instituto Nacional de Rehabilitación (INR) para atenderse frente a la lesión de médula espinal y que tiene como principal consecuencia dejar al paciente en un estado de cuadriplejia (INR, 2014), el cual genera un cambio drástico en la vida de las personas a causa de un cuadro diverso de efectos; uno a tomar en especial consideración es la espasticidad, el cual es un fenómeno duradero, dinámico y cambiante, con múltiples factores que influyen en ella [23]. Su evolución natural es hacia la cronicidad, acompañada de fenómenos estáticos por alteraciones de las propiedades de los tejidos blandos (elasticidad, plasticidad y viscosidad). Cuando se alteran estas propiedades, se instaura una fibrosis del músculo y de las estructuras adyacentes, la contractura se hace fija, aparecen retracciones y deformidades osteoarticulares y/o dolor. Por tanto, el tratamiento debe ser lo más precoz posible, en los primeros estadios [24], ya que la rehabilitación en etapas posteriores lleva al paciente a realizar mayores gastos y a tener mayor dependencia de la asistencia médica.</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "rBMDnnVfQb",
+          "_anchor": "content9-1",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content9-1"
+          "_params": {}
         },
         {
           "alias": false,
