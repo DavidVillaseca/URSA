@@ -2399,13 +2399,19 @@ body {
   padding-bottom: 30px;
   background-color: #2e2e2e;
 }
-.cid-rBjoOcmOVw {
+.cid-rC4pcG3SiC {
   padding-top: 120px;
-  padding-bottom: 0px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
-.cid-rBjoOcmOVw .mbr-section-subtitle {
+.cid-rC4pcG3SiC .mbr-section-subtitle {
   color: #767676;
+}
+.cid-rC4pcG3SiC .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-rC4pcG3SiC H2 {
+  text-align: left;
 }
 .cid-rBMxOkoKbl .modal-body .close {
   background: #1b1b1b;
