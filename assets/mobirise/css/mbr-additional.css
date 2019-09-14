@@ -1846,6 +1846,7 @@ body {
 }
 .cid-rB9zgEWKvG H1 {
   color: #ffffff;
+  text-align: center;
 }
 .cid-rB9zgEWKvG H3 {
   color: #ffffff;
@@ -4086,13 +4087,13 @@ body {
   background: #674274;
 }
 .cid-rC3XvqASn2 .progress1 .progressbar-number:before {
-  content: '67';
+  content: '48';
 }
 .cid-rC3XvqASn2 .progress2 .progressbar-number:before {
-  content: '47';
+  content: '52';
 }
 .cid-rC3XvqASn2 .progress3 .progressbar-number:before {
-  content: '52';
+  content: '45';
 }
 .cid-rC3XvqASn2 .progress4 .progressbar-number:before {
   content: '45';
