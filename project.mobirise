@@ -1549,7 +1549,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/caso2-2000x946.png",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -1566,7 +1566,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/paciente-1800x900.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
