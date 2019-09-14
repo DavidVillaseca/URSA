@@ -4128,8 +4128,8 @@ body {
   }
 }
 .cid-rC4xYI7Xie {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-rC4xYI7Xie h2 {
@@ -4195,7 +4195,7 @@ body {
   background-color: #ffffff;
 }
 .cid-rC4B5Z00L4 .mbr-section-subtitle {
-  color: #767676;
+  color: #232323;
   text-align: left;
 }
 .cid-rC4B5Z00L4 .container-table {
@@ -4274,7 +4274,7 @@ body {
 }
 .cid-rC4Drqqh37 {
   padding-top: 15px;
-  padding-bottom: 90px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-rC4Drqqh37 h3 {
@@ -4307,36 +4307,6 @@ body {
     flex-basis: 33%;
   }
 }
-.cid-rBJtIn6igF {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-rBJtIn6igF .mbr-text,
-.cid-rBJtIn6igF blockquote {
-  color: #767676;
-}
-.cid-rBJvKMffRx {
-  background: #ffffff;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.cid-rBJvKMffRx .image-block {
-  margin: auto;
-}
-.cid-rBJvKMffRx figcaption {
-  position: relative;
-}
-.cid-rBJvKMffRx figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-rBJvKMffRx .image-block {
-    width: 100% !important;
-  }
-}
 .cid-rBJvQv6r1k {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -4345,6 +4315,9 @@ body {
 .cid-rBJvQv6r1k .mbr-text,
 .cid-rBJvQv6r1k blockquote {
   color: #767676;
+}
+.cid-rBJvQv6r1k .mbr-text {
+  color: #232323;
 }
 .cid-rC4s92r6t0 {
   padding-top: 45px;
