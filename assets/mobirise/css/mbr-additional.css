@@ -7758,6 +7758,27 @@ body {
     font-size: 40px !important;
   }
 }
+.cid-rCrbyFZC6D {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-rCrbyFZC6D .image-block {
+  margin: auto;
+}
+.cid-rCrbyFZC6D figcaption {
+  position: relative;
+}
+.cid-rCrbyFZC6D figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rCrbyFZC6D .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rB9AnhjPRP {
   padding-top: 30px;
   padding-bottom: 30px;
