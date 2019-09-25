@@ -9019,12 +9019,208 @@ body {
   padding-bottom: 30px;
   background-color: #2e2e2e;
 }
-.cid-rCCDVAfbn9 {
-  background: linear-gradient(45deg, #e4d295, #674274);
+.cid-rD5oB1oAX4 {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  background-color: #232323;
 }
-.cid-rCCDVAfbn9 .mbr-section-subtitle {
-  font-style: italic;
-  letter-spacing: 1rem;
+.cid-rD5oB1oAX4 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rD5oB1oAX4 .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-rD5oB1oAX4 H2 {
+  color: #ffffff;
+}
+.cid-rD5oPrU18R {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rD5oPrU18R h2 {
+  text-align: left;
+}
+.cid-rD5oPrU18R h4 {
+  text-align: left;
+  font-weight: 500;
+}
+.cid-rD5oPrU18R p {
+  color: #767676;
+  text-align: left;
+}
+.cid-rD5oPrU18R .aside-content {
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+}
+.cid-rD5oPrU18R .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  word-break: break-word;
+}
+.cid-rD5oPrU18R .media {
+  margin: initial;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.cid-rD5oPrU18R .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.cid-rD5oPrU18R .card-img {
+  padding-right: 2rem;
+  width: auto;
+}
+.cid-rD5oPrU18R .card-img span {
+  font-size: 72px;
+  color: #707070;
+}
+@media (min-width: 992px) {
+  .cid-rD5oPrU18R .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rD5oPrU18R .mbr-figure {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 300px) {
+  .cid-rD5oPrU18R .card-img span {
+    font-size: 40px !important;
+  }
+}
+.cid-rD5oPrU18R H2 {
+  text-align: left;
+}
+.cid-rD5oPFEHYX {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rD5oPFEHYX h2 {
+  text-align: left;
+}
+.cid-rD5oPFEHYX h4 {
+  text-align: left;
+  font-weight: 500;
+}
+.cid-rD5oPFEHYX p {
+  color: #767676;
+  text-align: left;
+}
+.cid-rD5oPFEHYX .aside-content {
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+}
+.cid-rD5oPFEHYX .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  word-break: break-word;
+}
+.cid-rD5oPFEHYX .media {
+  margin: initial;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.cid-rD5oPFEHYX .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.cid-rD5oPFEHYX .card-img {
+  padding-right: 2rem;
+  width: auto;
+}
+.cid-rD5oPFEHYX .card-img span {
+  font-size: 72px;
+  color: #707070;
+}
+@media (min-width: 992px) {
+  .cid-rD5oPFEHYX .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rD5oPFEHYX .mbr-figure {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 300px) {
+  .cid-rD5oPFEHYX .card-img span {
+    font-size: 40px !important;
+  }
+}
+.cid-rD5oPWSEbO {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rD5oPWSEbO h2 {
+  text-align: left;
+}
+.cid-rD5oPWSEbO h4 {
+  text-align: left;
+  font-weight: 500;
+}
+.cid-rD5oPWSEbO p {
+  color: #767676;
+  text-align: left;
+}
+.cid-rD5oPWSEbO .aside-content {
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+}
+.cid-rD5oPWSEbO .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  word-break: break-word;
+}
+.cid-rD5oPWSEbO .media {
+  margin: initial;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.cid-rD5oPWSEbO .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.cid-rD5oPWSEbO .card-img {
+  padding-right: 2rem;
+  width: auto;
+}
+.cid-rD5oPWSEbO .card-img span {
+  font-size: 72px;
+  color: #707070;
+}
+@media (min-width: 992px) {
+  .cid-rD5oPWSEbO .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rD5oPWSEbO .mbr-figure {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 300px) {
+  .cid-rD5oPWSEbO .card-img span {
+    font-size: 40px !important;
+  }
 }
 .cid-rB9yyNjqJ3 .navbar {
   background: #000000;
