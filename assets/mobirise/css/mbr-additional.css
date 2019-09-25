@@ -8390,11 +8390,11 @@ body {
   font-weight: 300;
 }
 .cid-rD5shYe8UD .step {
-  width: 64px;
-  height: 64px;
-  font-size: 32px;
+  width: 70px;
+  height: 70px;
+  font-size: 35px;
   border-radius: 50%;
-  border: 2px solid #efefef;
+  border: 2px solid #674274;
 }
 @media (max-width: 767px) {
   .cid-rD5shYe8UD .step {
@@ -8407,13 +8407,13 @@ body {
   position: relative;
 }
 .cid-rD5shYe8UD .separline:after {
-  top: 68px;
-  left: 30px;
+  top: 74px;
+  left: 33px;
   position: absolute;
   content: "";
   width: 2px;
-  height: calc(100% - (32px + 4px) * 2);
-  background-color: #efefef;
+  height: calc(100% - (35px + 4px) * 2);
+  background-color: #674274;
 }
 @media (max-width: 767px) {
   .cid-rD5shYe8UD .separline:after {
