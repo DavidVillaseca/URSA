@@ -4403,14 +4403,42 @@ body {
     flex-basis: 33%;
   }
 }
-.cid-rCqMauH4eA {
+.cid-rDjdChKKXm {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-rCqMauH4eA .mbr-text,
-.cid-rCqMauH4eA blockquote {
+.cid-rDjdChKKXm .card-box {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+.cid-rDjdChKKXm h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rDjdChKKXm p {
   color: #767676;
+  text-align: left;
+}
+.cid-rDjdChKKXm .card-wrapper {
+  position: relative;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rDjdChKKXm .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-rDjdChKKXm .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.cid-rDjdChKKXm .card-title {
+  text-align: center;
 }
 .cid-rBJvQv6r1k {
   padding-top: 60px;
