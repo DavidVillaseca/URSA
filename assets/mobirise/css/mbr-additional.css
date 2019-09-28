@@ -8172,20 +8172,47 @@ body {
 }
 .cid-rCovdOHXv6 {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-rCovdOHXv6 .mbr-section-subtitle {
   color: #767676;
 }
-.cid-rCovcxpiea {
-  padding-top: 60px;
+.cid-rDklnKDsbs {
+  padding-top: 45px;
   padding-bottom: 60px;
   background-color: #ffffff;
 }
-.cid-rCovcxpiea .mbr-text,
-.cid-rCovcxpiea blockquote {
+.cid-rDklnKDsbs .counter-container {
   color: #767676;
+}
+.cid-rDklnKDsbs .counter-container ol {
+  margin-bottom: 0;
+  counter-reset: myCounter;
+}
+.cid-rDklnKDsbs .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-rDklnKDsbs .counter-container ol li {
+  list-style: none;
+  padding-left: .5rem;
+}
+.cid-rDklnKDsbs .counter-container ol li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #674274;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 .cid-rCoveSdmRP {
   padding-top: 60px;
@@ -8195,14 +8222,41 @@ body {
 .cid-rCoveSdmRP .mbr-section-subtitle {
   color: #767676;
 }
-.cid-rCovemaGlR {
+.cid-rDkoUUDhdV {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #ffffff;
 }
-.cid-rCovemaGlR .mbr-text,
-.cid-rCovemaGlR blockquote {
+.cid-rDkoUUDhdV .counter-container {
   color: #767676;
+}
+.cid-rDkoUUDhdV .counter-container ol {
+  margin-bottom: 0;
+  counter-reset: myCounter;
+}
+.cid-rDkoUUDhdV .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-rDkoUUDhdV .counter-container ol li {
+  list-style: none;
+  padding-left: .5rem;
+}
+.cid-rDkoUUDhdV .counter-container ol li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #674274;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 .cid-rCqyLLhc58 {
   padding-top: 60px;
