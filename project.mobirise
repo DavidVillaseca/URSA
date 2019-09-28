@@ -40,7 +40,7 @@
         "url": "https://fonts.googleapis.com/css?family=Abril+Fatface:400"
       }
     ],
-    "uniqCompNum": 7,
+    "uniqCompNum": 15,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/2-128x67.png",
@@ -8548,7 +8548,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page8.html#content4-b\" data-app-placeholder=\"Type Text\">SEMANA 2</a>\n                    <a class=\"btn btn-primary\" href=\"page8.html#content4-d\" data-app-placeholder=\"Type Text\">ESTADO DEL ARTE</a> <a class=\"btn btn-primary\" href=\"page8.html#content4-n\" data-app-placeholder=\"Type Text\">GLOSARIO</a> <a class=\"btn btn-primary\" href=\"page8.html#content4-f\" data-app-placeholder=\"Type Text\">FISIOPATOLOGIA</a> <a class=\"btn btn-primary\" href=\"page8.html#content4-j\" data-app-placeholder=\"Type Text\">ESTRATEGIAS DE SOLUCIÓN</a> <a class=\"btn btn-primary\" href=\"page8.html#content4-r\" data-app-placeholder=\"Type Text\">PROPUESTAS DE SOLUCIÓN</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page8.html#content4-b\" data-app-placeholder=\"Type Text\">SEMANA 2</a> <a class=\"btn btn-primary\" href=\"page8.html#content4-b\" data-app-placeholder=\"Type Text\">FISIOPATOLOGÍA</a>\n                    <a class=\"btn btn-primary\" href=\"page8.html#content4-d\" data-app-placeholder=\"Type Text\">SEMANA 3</a> <a class=\"btn btn-primary\" href=\"page8.html#content4-n\" data-app-placeholder=\"Type Text\">SEMANA 4</a>   <a class=\"btn btn-primary\" href=\"page8.html#content4-r\" data-app-placeholder=\"Type Text\">SEMANA 5</a> <a class=\"btn btn-primary\" href=\"page8.html#content4-r\" data-app-placeholder=\"Type Text\">SEMANA 6</a> <a class=\"btn btn-primary\" href=\"page8.html#content4-r\" data-app-placeholder=\"Type Text\">GLOSARIO</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rC9tGB5JS0",
           "_anchor": "content8-1t",
           "_protectedParams": [],
@@ -8567,7 +8567,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Semana 2</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">SEMANA 2:<br>Contexto del caso clínico.\n<div>Descripción y definición del problema.</div></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rCovdOHXv6",
           "_anchor": "content4-b",
           "_protectedParams": [],
@@ -8638,7 +8638,78 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">Estado del arte</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">FISIOPATOLOGÍA</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rDkro4MvxE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-7"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ol": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem"
+                },
+                "& when (@stylizedCounters)": {
+                  "counter-reset": "myCounter",
+                  "li": {
+                    "list-style": "none",
+                    "padding-left": ".5rem",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "0px",
+                      "margin-top": "-10px",
+                      "counter-increment": "myCounter",
+                      "content": "counter(myCounter)",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "40px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "40px",
+                      "height": "40px",
+                      "border-radius": "50%",
+                      "& when (@squareCounters)": {
+                        "border-radius": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "_name": "content11",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#674274\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li>Couillard-Despres S, Bieler L, Vogl M. Pathophysiology of Traumatic Spinal Cord Injury. Neurological Aspects of Spinal Cord Injury. 2017;:503-505.\n</li><li>Mataliotakis G, Tsirikos A. Spinal cord trauma: pathophysiology, classification of spinal cord injury syndromes, treatment principles and controversies. Orthopaedics and Trauma. 2016;30(5):440-441.\n</li><li>\n<span style=\"font-size: 1rem;\">Witiw C, Fehlings M. Acute Spinal Cord Injury. Journal of Spinal Disorders and Techniques. 2015;28(6):203-204.&nbsp;</span></li><li>Hiersemenzel L, Curt A, Dietz V. From spinal shock to spasticity: Neuronal adaptations to a spinal cord injury. Neurology. 2000;54(8):1574-1582.\n</li><li><span style=\"font-size: 1rem;\">Sheean G. The pathophysiology of spasticity. European Journal of Neurology. 2002;9(s1):3-9.&nbsp;</span></li><li>Elbasiouny S, Moroz D, Bakr M, Mushahwar V. Management of Spasticity After Spinal Cord Injury: Current Techniques and Future Directions. Neurorehabilitation and Neural Repair. 2009;24(1):23.</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rDkroUHcZ3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content11-8"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">SEMANA 3:<br>Estado del arte</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rCoveSdmRP",
           "_anchor": "content4-d",
           "_protectedParams": [],
@@ -8690,7 +8761,7 @@
             }
           },
           "_name": "content11",
-          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#674274\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li>Snoek G, IJzerman M, in `t Groen F, Stoffers T, Zilvold G. Use of the NESS Handmaster to restore handfunction in tetraplegia: clinical experiences in ten patients. Spinal Cord. 2000;38(4):244-249.\n</li><li><span style=\"font-size: 1rem;\">Santos E, Gelain M, Krueger E, Nogueira-Neto G, Nohama P. Artificial motor control for electrically stimulated upper limbs of plegic or paretic people. Research on Biomedical Engineering. 2016;32(2):199-211.&nbsp;</span></li><li>Mekki M, Delgado A, Fry A, Putrino D, Huang V. Robotic Rehabilitation and Spinal Cord Injury: a Narrative Review. Neurotherapeutics. 2018;15(3):604-617.\n</li><li>Lu Z, Tong K, Shin H, Stampas A, Zhou P. Robotic Hand–Assisted Training for Spinal Cord Injury Driven by Myoelectric Pattern Recognition. American Journal of Physical Medicine &amp; Rehabilitation. 2017;96:S146-S149.\n</li><li>SaeboFlex / SaeboReach Details | Saebo [Internet]. Saebo. Available from: https://www.saebo.com/saeboflex-saeboreach-details/\n</li><li>Ates S, Lobo-Prat J, Lammertse P, van der Kooij H, Stienen A. SCRIPT Passive Orthosis: Design and technical evaluation of the wrist and hand orthosis for rehabilitation training at home. 2013 IEEE 13th International Conference on Rehabilitation Robotics (ICORR). 2013;.\n</li><li>Avila V. Diseño e implementación de un prototipo de rehabilitador de mano aplicando robótica blanda para el mejoramiento de la sujeción en personas con escasa movilidad. Carrera de Ingeniería Mecatrónica. Departamento de Ciencias de la Energía y Mecánica. Universidad de las Fuerzas Armadas ESPE. Extensión Latacunga. 2019;.\n</li><li>Stern, E. Inflatable hand orthosis. U.S. Patent No. 5,383,827. 1995;.\n</li><li>Prochazka A, Gauthier M, Wieler M, Kenwell Z. The bionic glove: An electrical stimulator garment that provides controlled grasp and hand opening in quadriplegia. Archives of Physical Medicine and Rehabilitation. 1997;78(6):608-614.&nbsp;<br></li><li>Polygerinos P, Galloway K, Savage E, Herman M, Donnell K, Walsh C. Soft robotic glove for hand rehabilitation and task specific training. 2015 IEEE International Conference on Robotics and Automation (ICRA). 2015;.\n</li><li>Tadano K, Akai M, Kadota K, Kawashima K. Development of grip amplified glove using bi-articular mechanism with pneumatic artificial rubber muscle. 2010 IEEE International Conference on Robotics and Automation. 2010;.\n</li><li>Cappello L, Meyer J, Galloway K, Peisner J, Granberry R, Wagner D et al. Assisting hand function after spinal cord injury with a fabric-based soft robotic glove. Journal of NeuroEngineering and Rehabilitation. 2018;15(1).</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#674274\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li>Snoek G, IJzerman M, in `t Groen F, Stoffers T, Zilvold G. Use of the NESS Handmaster to restore handfunction in tetraplegia: clinical experiences in ten patients. Spinal Cord. 2000;38(4):244-249.\n</li><li><span style=\"font-size: 1rem;\">Santos E, Gelain M, Krueger E, Nogueira-Neto G, Nohama P. Artificial motor control for electrically stimulated upper limbs of plegic or paretic people. Research on Biomedical Engineering. 2016;32(2):199-211.&nbsp;</span></li><li>Mekki M, Delgado A, Fry A, Putrino D, Huang V. Robotic Rehabilitation and Spinal Cord Injury: a Narrative Review. Neurotherapeutics. 2018;15(3):604-617.\n</li><li>Lu Z, Tong K, Shin H, Stampas A, Zhou P. Robotic Hand–Assisted Training for Spinal Cord Injury Driven by Myoelectric Pattern Recognition. American Journal of Physical Medicine &amp; Rehabilitation. 2017;96:S146-S149.\n</li><li>SaeboFlex / SaeboReach Details | Saebo [Internet]. Saebo. Available from: https://www.saebo.com/saeboflex-saeboreach-details/\n</li><li>Ates S, Lobo-Prat J, Lammertse P, van der Kooij H, Stienen A. SCRIPT Passive Orthosis: Design and technical evaluation of the wrist and hand orthosis for rehabilitation training at home. 2013 IEEE 13th International Conference on Rehabilitation Robotics (ICORR). 2013;.\n</li><li>Avila V. Diseño e implementación de un prototipo de rehabilitador de mano aplicando robótica blanda para el mejoramiento de la sujeción en personas con escasa movilidad. Carrera de Ingeniería Mecatrónica. Departamento de Ciencias de la Energía y Mecánica. Universidad de las Fuerzas Armadas ESPE. Extensión Latacunga. 2019;.\n</li><li>Stern, E. Inflatable hand orthosis. U.S. Patent No. 5,383,827. 1995;.\n</li><li>Prochazka A, Gauthier M, Wieler M, Kenwell Z. The bionic glove: An electrical stimulator garment that provides controlled grasp and hand opening in quadriplegia. Archives of Physical Medicine and Rehabilitation. 1997;78(6):608-614.&nbsp;<br></li><li>Polygerinos P, Galloway K, Savage E, Herman M, Donnell K, Walsh C. Soft robotic glove for hand rehabilitation and task specific training. 2015 IEEE International Conference on Robotics and Automation (ICRA). 2015;.\n</li><li>Tadano K, Akai M, Kadota K, Kawashima K. Development of grip amplified glove using bi-articular mechanism with pneumatic artificial rubber muscle. 2010 IEEE International Conference on Robotics and Automation. 2010;.\n</li><li>Cappello L, Meyer J, Galloway K, Peisner J, Granberry R, Wagner D et al. Assisting hand function after spinal cord injury with a fabric-based soft robotic glove. Journal of NeuroEngineering and Rehabilitation. 2018;15(1).</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rDkoUUDhdV",
           "_protectedParams": [],
           "_global": false,
@@ -8709,13 +8780,13 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    GLOSARIO</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rCqyLLhc58",
-          "_anchor": "content4-n",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    SEMANA 4:<br>Estrategias de solución</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rDktaYhk7A",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content4-9"
         },
         {
           "alias": false,
@@ -8723,114 +8794,122 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>[1] Filella X, Molina R, Ballesta AM. Estructura y función de las citosinas. Barcelona, España. Elsevier Medicina Integral. 2002.\n</b></p><p><b>[2] Costa G. Contracción del músculo esquelético. Biblioteca virtual \n</b></p><p><b>[3] Déficit neurológico: MedlinePlus enciclopedia médica [Internet]. Medlineplus.gov. Available from: https://medlineplus.gov/spanish/ency/article/002267.htm\n</b></p><p><b>[4] Boyd R, Ada L. Physiotherapy management of spasticity. Upper Motor Neurone Syndrome and Spasticity. :80.\n</b></p><p><b>[5] Diagnosis and Classification of Diabetes Mellitus. Diabetes Care. 2009;33(Supplement_1):S62-S69.\n</b></p><p><b>[6] Distracción [Internet]. Enciclopedia médica y terminologia médica. [cited 18 September 2019]. Available from: https://www.diccionariomedico.net/diccionario-terminos/6419-distraccion\n</b></p><p><b>[7] Retención de líquidos o edema [Internet]. Cancer.Net. Available from: https://www.cancer.net/es/asimilaci%C3%B3n-con-c%C3%A1ncer/efectos-f%C3%ADsicos-emocionales-y-sociales-del-c%C3%A1ncer/manejo-de-los-efectos-secundarios-f%C3%ADsicos/retenci%C3%B3n-de-l%C3%ADquidos-o-edema\n</b></p><p><b>[8] Quiñones Aguilar, S., Claudia, P., César, D., &amp; Javier, J. G. F. Espasticidad en adultos. Revista Mexicana de Neurociencia.2009; 10(2), 112-121\n</b></p><p><b>[9] Excitotoxicidad y muerte de las neuronas [Internet]. Investigación y Ciencia. 2005. Available from: https://www.investigacionyciencia.es/revistas/mente-y-cerebro/creatividad-394/excitotoxicidad-y-muerte-de-las-neuronas-4065\n</b></p><p><b>[10] Palastanga N, Field D, Soames R, González del Campo Román P. Anatomía y movimiento humano estructura y funcionamiento. Barcelona, España: Editorial Paidotribo; 2007.\n</b></p><p><b>[11] Repetto A. Bases Biomecánicas para el Análisis del movimiento humano. 2005.\n</b></p><p><b>[12] Hemorragias y heridas. Guía de atención a emergencias sanitarias en los centros educativos [Internet]. Www3.gobiernodecanarias.org. 2013. Available from: http://www3.gobiernodecanarias.org/medusa/mediateca/publicaciones/?attachment_id=47\n</b></p><p><b>[13] De Luis Román, D; Aller, R.; Bustamante, J. Aspectos terapéuticos de la dieta en la hipertensión arterial. Nefrología, 2008; 1(1).\n</b></p><p><b>[14] Isquemia [Internet]. National Cancer Institute. Available from: https://www.cancer.gov/espanol/publicaciones/diccionario/def/isquemia\n</b></p><p><b>\n</b></p><p><b>[15] Smith WR, Stahel PF, Suzuki T, Gabrielle P. Chapter 2. Musculoskeletal Trauma Surgery. In: Skinner HB, McMahon PJ. eds. Current Diagnosis &amp; Treatment in Orthopedics, 5e New York, NY: McGraw-Hill; 2014. \n</b></p><p><b>\n</b></p><p><b>[16] Huete García, A. Análisis sobre la lesión medular en España. Federación Nacional Aspaym; 2018.\n</b></p><p><b>\n</b></p><p><b>[17] Enfermedades de la médula espinal: MedlinePlus en español [Internet]. Medlineplus.gov. Available from: https://medlineplus.gov/spanish/spinalcorddiseases.html\n</b></p><p><b>\n</b></p><p><b>[18] DeCS Server - List Exact Term [Internet]. Descriptores en ciencias de la salud. Biblioteca virtual en Salud. [cited 18 September 2019]. Available from: http://decs.bvs.br/cgi-bin/wxis1660.exe/decsserver/?IsisScript=../cgi-bin/decsserver/decsserver.xis&amp;task=exact_term&amp;previous_page=homepage&amp;interface_language=e&amp;search_language=e&amp;search_exp=Microvasos\n</b></p><p><b>[19] Frisch H. Método de exploración del aparato locomotor y de la postura. Barcelona: Paidotribo; 2005.\n</b></p><p><b>\n</b></p><p><b>[20] Necrosis: MedlinePlus Medical Encyclopedia [Internet]. Medlineplus.gov. Available from: https://medlineplus.gov/ency/article/002266.htm\n</b></p><p><b>\n</b></p><p><b>[21] Lesión de la médula espinal: Esperanza en la investigación : National Institute of Neurological Disorders and Stroke (NINDS) [Internet]. Espanol.ninds.nih.gov. Available from: https://espanol.ninds.nih.gov/trastornos/lesion_de_la_medula_espinal.htm\n</b></p><p><b>[22] Regidor L, Solans X. [Internet]. Instituto Nacional de Seguridad e Higiene en el trabajo. 1998. Available from: https://www.insst.es/InshtWeb/Contenidos/Documentacion/FichasTecnicas/NTP/Ficheros/401a500/ntp_487.pdf\n</b></p><p><b>[23] Parálisis: MedlinePlus en español [Internet]. Medlineplus.gov. Available from: https://medlineplus.gov/spanish/paralysis.html\n</b></p><p><b>[24] Resonancia magnética: MedlinePlus enciclopedia médica [Internet]. Medlineplus.gov. [cited 18 September 2019]. Available from: https://medlineplus.gov/spanish/ency/article/003335.htm\n</b></p><p><b>[25] Repetto A. Bases Biomecánicas para el Análisis del movimiento humano. 2005.\n</b></p><p><b>\n</b></p><p><b>[26] de Salubridad General, C. Diagnóstico y principios del tratamiento quirúrgico de las fracturas de vértebras toracolumbares secundarias a un traumatismo, en adulto: evidencias y recomendaciones. México: Secretaría de Salud; 2013.\n</b></p><p><b>\n</b></p><p><b>[27] Comisión Nacional de Protección Social en Salud. Manual de Exploración Neurológica para Niños Menores de Cinco Años en el Primer y Segundo Nivel de Atención. Primera edición. México D.F.: Secretaría de Salud, 64p. “Manual elaborado por la Unidad de Investigación en Neurodesarrollo (UIN) del Hospital Infantil de México Federico Gómez (HIMFG) para la Comisión Nacional de Protección Social en Salud (CNPSS)”; 2013.\n</b></p><p><b>\n</b></p><p><b>[28] Diresa Cusco. GUÍA DE PRACTICA CLINICA TRAUMATISMO VERTEBROMEDULAR.\n</b></p><p><b>[29] Trombosis, un mal que muchos ignoran y pocos comprende [Internet]. Elsevier Connect. 2017. Available from: https://www.elsevier.com/es-es/connect/medicina/trombosis-un-mal-que-muchos-ignoran-y-pocos-comprenden \n</b></p><p><b>[30] Salud Madrid. Úlceras por presión. Dirección General de Calidad, Acreditación, Evaluación e Inspección; 2006.\n</b></p><p><b>[31] ¿Qué es vasoespasmo? [Internet]. Clínica Universidad de Navarra. Available from: https://www.cun.es/diccionario-medico/terminos/vasoespasmo\n</b></p><p><b><br></b></p></div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rCqyMYcwlX",
-          "_anchor": "content1-o",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Fisiopatología</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rCovgtjHwk",
-          "_anchor": "content4-f",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>[1] Couillard-Despres S, Bieler L, Vogl M. Pathophysiology of Traumatic Spinal Cord Injury. Neurological Aspects of Spinal Cord Injury. 2017;:503-505.</b></p><p><b>[2] Mataliotakis G, Tsirikos A. Spinal cord trauma: pathophysiology, classification of spinal cord injury syndromes, treatment principles and controversies. Orthopaedics and Trauma. 2016;30(5):440-441.</b></p><p><b>[3] Witiw C, Fehlings M. Acute Spinal Cord Injury. Journal of Spinal Disorders and Techniques. 2015;28(6):203-204.</b></p><p><b>[4] Hiersemenzel L, Curt A, Dietz V. From spinal shock to spasticity: Neuronal adaptations to a spinal cord injury. Neurology. 2000;54(8):1574-1582.</b></p><p><b>[5] Sheean G. The pathophysiology of spasticity. European Journal of Neurology. 2002;9(s1):3-9.</b></p><p><b>[6] Elbasiouny S, Moroz D, Bakr M, Mushahwar V. Management of Spasticity After Spinal Cord Injury: Current Techniques and Future Directions. Neurorehabilitation and Neural Repair. 2009;24(1):23.</b></p></div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rCovfTFNHQ",
-          "_anchor": "content1-e",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Propuestas de solución</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rCqBcl1rhO",
-          "_anchor": "content4-r",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>[1] Saebo. Benefits of rehabilitation gloves and dynamic splints for stroke recovery. Rehab Solutions from Saebo.2016.</b></p><p><b>[2] Radomski M, Latham CA. Occupational therapy for physical dysfunction 6th edition. 2008;16:17.</b></p><p><b>[3] Radomski M, Latham CA. Occupational therapy for physical dysfunction 6th edition. 2008;16:17.</b></p><p><b>[4]Van Lede, P. (2017). The Splinting Guide. Static hand splints - dynamic hand splints. ORFIT Industries\n</b></p><p><b>[5]Ewing, E., Gettle, K., Philips, C., Janson, J.(2005) Classification and Nomenclature of Splints and Splint Components. En: Hand and Upper Extremity Splinting. Mosby.\n</b></p><p><b><br></b></p></div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rCqBcF13UL",
-          "_anchor": "content1-s",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
+            ".counter-container": {
               "color": "#767676",
-              "text-align": "left"
+              "ol": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem"
+                },
+                "& when (@stylizedCounters)": {
+                  "counter-reset": "myCounter",
+                  "li": {
+                    "list-style": "none",
+                    "padding-left": ".5rem",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "0px",
+                      "margin-top": "-10px",
+                      "counter-increment": "myCounter",
+                      "content": "counter(myCounter)",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "40px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "40px",
+                      "height": "40px",
+                      "border-radius": "50%",
+                      "& when (@squareCounters)": {
+                        "border-radius": "0"
+                      }
+                    }
+                  }
+                }
+              }
             }
           },
-          "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Estrategias de solución</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\"><div><b>[1] Kisner C, Colby LA. Therapeutic exercise: foundations and techniques. 7th ed. Philadelphia (PA): FA Davis, 2018.\n</b></div><div><b><br></b></div><div><b>[2] Hamilton Health Sciences. Spinal Cord Injury Rehabilitation Program. Range of Motion: A guide for you after spinal cord injury. 2003.\n</b></div><div><b><br></b></div><div><b>[3] Radomski M, Latham CA. Occupational therapy for physical dysfunction 6th edition. 2008;16:17.\n</b></div><div><b><br></b></div><div><b>\n[4]Van Lede, P. (2017). The Splinting Guide. Static hand splints - dynamic hand splints. ORFIT Industries\n</b></div><div><b><br></b></div><div><b>[5]Ewing, E., Gettle, K., Philips, C., Janson, J.(2005) Classification and Nomenclature of Splints and Splint Components. En: Hand and Upper Extremity Splinting. Mosby.\n</b></div><div><br></div><div><b>[6] Samsó Vidal, J. \"La estimulación eléctrica funcional en la lesión medular.\" Sobre ruedas. 2008; 69 (2008): no 69, p. 2.\n</b></div><div><b><br></b></div><div><b>[7] Avendaño Coy J, Basco López J. Electroestimulación funcional en el lesionado medular (revisión científica). Fisioterapia. 2001;23:12-22.\n</b></div><div><b><br></b></div><div><b>\n</b></div><div><b><br></b></div><div><br></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rD5C4tlh8P",
-          "_anchor": "content4-j",
+          "_name": "content11",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#674274\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li>Kisner C, Borstad J, Colby L. Therapeutic exercise: foundations and techniques. 7th ed. \n</li><li>Hamilton Health Sciences. Spinal Cord Injury Rehabilitation Program. Range of Motion: A guide for you after spinal cord injury. 2003.\n</li><li><span style=\"font-size: 1rem;\">Radomski M, Latham CA. Occupational therapy for physical dysfunction 6th edition. 2008;16:17.&nbsp;</span></li><li>Van Lede P. THE SPLINTING GUIDE. Orthoacquatica.es. 2017.\n</li><li>Classification and Nomenclature of Splints and Splint Components. Hand and Upper Extremity Splinting. 1992;:120-140.\n</li><li>Samsó Vidal, J. \"La estimulación eléctrica funcional en la lesión medular.\" Sobre ruedas. 2008; 69 (2008): no 69, p. 2.\n</li><li>Avendaño Coy J, Basco López J. Electroestimulación funcional en el lesionado medular (revisión científica). Fisioterapia. 2001;23:12-22.\n</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rDktbtgQ44",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content11-a"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">GLOSARIO</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rDktX19py4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-d"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ol": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem"
+                },
+                "& when (@stylizedCounters)": {
+                  "counter-reset": "myCounter",
+                  "li": {
+                    "list-style": "none",
+                    "padding-left": ".5rem",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "0px",
+                      "margin-top": "-10px",
+                      "counter-increment": "myCounter",
+                      "content": "counter(myCounter)",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "40px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "40px",
+                      "height": "40px",
+                      "border-radius": "50%",
+                      "& when (@squareCounters)": {
+                        "border-radius": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "_name": "content11",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#674274\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li>Filella X, Molina R, Ballesta AM. Estructura y función de las citosinas. Barcelona, España. Elsevier Medicina Integral. 2002.\n</li><li><span style=\"font-size: 1rem;\">Costa G. Contracción del músculo esquelético. Biblioteca virtual&nbsp;</span><br></li><li><span style=\"font-size: 1rem;\">Déficit neurológico: MedlinePlus enciclopedia médica [Internet]. Medlineplus.gov. Available from: https://medlineplus.gov/spanish/ency/article/002267.htm&nbsp;</span><br></li><li><span style=\"font-size: 1rem;\">Boyd R, Ada L. Physiotherapy management of spasticity. Upper Motor Neurone Syndrome and Spasticity. :80.&nbsp;</span><br></li><li><span style=\"font-size: 1rem;\">Diagnosis and Classification of Diabetes Mellitus. Diabetes Care. 2009;33(Supplement_1):S62-S69.&nbsp;</span><br></li><li>\nD<span style=\"font-size: 1rem;\">istracción [Internet]. Enciclopedia médica y terminologia médica. [cited 18 September 2019]. Available from: https://www.diccionariomedico.net/diccionario-terminos/6419-distraccion&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Retención de líquidos o edema [Internet]. Cancer.Net. Available from: https://www.cancer.net/es/asimilaci%C3%B3n-con-c%C3%A1ncer/efectos-f%C3%ADsicos-emocionales-y-sociales-del-c%C3%A1ncer/manejo-de-los-efectos-secundarios-f%C3%ADsicos/retenci%C3%B3n-de-l%C3%ADquidos-o-edema&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Quiñones Aguilar, S., Claudia, P., César, D., &amp; Javier, J. G. F. Espasticidad en adultos. Revista Mexicana de Neurociencia.2009; 10(2), 112-121&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Excitotoxicidad y muerte de las neuronas [Internet]. Investigación y Ciencia. 2005. Available from: https://www.investigacionyciencia.es/revistas/mente-y-cerebro/creatividad-394/excitotoxicidad-y-muerte-de-las-neuronas-4065&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Palastanga N, Field D, Soames R, González del Campo Román P. Anatomía y movimiento humano estructura y funcionamiento. Barcelona, España: Editorial Paidotribo; 2007.&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Repetto A. Bases Biomecánicas para el Análisis del movimiento humano. 2005.&nbsp;</span></li><li>\nH<span style=\"font-size: 1rem;\">emorragias y heridas. Guía de atención a emergencias sanitarias en los centros educativos [Internet]. Www3.gobiernodecanarias.org. 2013. Available from: http://www3.gobiernodecanarias.org/medusa/mediateca/publicaciones/?attachment_id=47&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">De Luis Román, D; Aller, R.; Bustamante, J. Aspectos terapéuticos de la dieta en la hipertensión arterial. Nefrología, 2008; 1(1).&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Isquemia [Internet]. National Cancer Institute. Available from: https://www.cancer.gov/espanol/publicaciones/diccionario/def/isquemia&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Smith WR, Stahel PF, Suzuki T, Gabrielle P. Chapter 2. Musculoskeletal Trauma Surgery. In: Skinner HB, McMahon PJ. eds. Current Diagnosis &amp; Treatment in Orthopedics, 5e New York, NY: McGraw-Hill; 2014.&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Huete García, A. Análisis sobre la lesión medular en España. Federación Nacional Aspaym; 2018.&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Enfermedades de la médula espinal: MedlinePlus en español [Internet]. Medlineplus.gov. Available from: https://medlineplus.gov/spanish/spinalcorddiseases.html&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">DeCS Server - List Exact Term [Internet]. Descriptores en ciencias de la salud. Biblioteca virtual en Salud. [cited 18 September 2019]. Available from: http://decs.bvs.br/cgi-bin/wxis1660.exe/decsserver/?IsisScript=../cgi-bin/decsserver/decsserver.xis&amp;task=exact_term&amp;previous_page=homepage&amp;interface_language=e&amp;search_language=e&amp;search_exp=Microvasos&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Frisch H. Método de exploración del aparato locomotor y de la postura. Barcelona: Paidotribo; 2005.&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Necrosis: MedlinePlus Medical Encyclopedia [Internet]. Medlineplus.gov. Available from: https://medlineplus.gov/ency/article/002266.htm&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Lesión de la médula espinal: Esperanza en la investigación : National Institute of Neurological Disorders and Stroke (NINDS) [Internet]. Espanol.ninds.nih.gov. Available from: https://espanol.ninds.nih.gov/trastornos/lesion_de_la_medula_espinal.htm&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Regidor L, Solans X. [Internet]. Instituto Nacional de Seguridad e Higiene en el trabajo. 1998. Available from: https://www.insst.es/InshtWeb/Contenidos/Documentacion/FichasTecnicas/NTP/Ficheros/401a500/ntp_487.pdf&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Parálisis: MedlinePlus en español [Internet]. Medlineplus.gov. Available from: https://medlineplus.gov/spanish/paralysis.html&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Resonancia magnética: MedlinePlus enciclopedia médica [Internet]. Medlineplus.gov. [cited 18 September 2019]. Available from: https://medlineplus.gov/spanish/ency/article/003335.htm&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">Repetto A. Bases Biomecánicas para el Análisis del movimiento humano. 2005.&nbsp;</span></li><li>\n<span style=\"font-size: 1rem;\">de Salubridad General, C. Diagnóstico y principios del tratamiento quirúrgico de las fracturas de vértebras toracolumbares secundarias a un traumatismo, en adulto: evidencias y recomendaciones. México: Secretaría de Salud; 2013.&nbsp;</span></li><li><span style=\"font-size: 1rem;\">Comisión Nacional de Protección Social en Salud. Manual de Exploración Neurológica para Niños Menores de Cinco Años en el Primer y Segundo Nivel de Atención. Primera edición. México D.F.: Secretaría de Salud, 64p. “Manual elaborado por la Unidad de Investigación en Neurodesarrollo (UIN) del Hospital Infantil de México Federico Gómez (HIMFG) para la Comisión Nacional de Protección Social en Salud (CNPSS)”; 2013.&nbsp;</span><br><span style=\"font-size: 1rem;\"></span></li><li><span style=\"font-size: 1rem;\">Diresa Cusco. GUÍA DE PRACTICA CLINICA TRAUMATISMO VERTEBROMEDULAR.&nbsp;</span><br><span style=\"font-size: 1rem;\"></span></li><li><span style=\"font-size: 1rem;\">Trombosis, un mal que muchos ignoran y pocos comprende [Internet]. Elsevier Connect. 2017. Available from: https://www.elsevier.com/es-es/connect/medicina/trombosis-un-mal-que-muchos-ignoran-y-pocos-comprenden&nbsp;</span><br></li><li><span style=\"font-size: 1rem;\">Salud Madrid. Úlceras por presión. Dirección General de Calidad, Acreditación, Evaluación e Inspección; 2006.&nbsp;</span><br></li><li><span style=\"font-size: 1rem;\">¿Qué es vasoespasmo? [Internet]. Clínica Universidad de Navarra. Available from: https://www.cun.es/diccionario-medico/terminos/vasoespasmo&nbsp;</span></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rDktXGtnxe",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content11-e"
         }
       ]
     },
