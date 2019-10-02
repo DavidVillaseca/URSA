@@ -13534,6 +13534,36 @@ body {
     width: 100% !important;
   }
 }
+.cid-rDKRjwxsF3 {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rDKRjwxsF3 .mbr-text,
+.cid-rDKRjwxsF3 blockquote {
+  color: #767676;
+}
+.cid-rDKRfiQnX8 {
+  background: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 60px;
+}
+.cid-rDKRfiQnX8 .image-block {
+  margin: auto;
+}
+.cid-rDKRfiQnX8 figcaption {
+  position: relative;
+}
+.cid-rDKRfiQnX8 figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rDKRfiQnX8 .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rDKocAlaR1 {
   padding-top: 60px;
   padding-bottom: 0px;
