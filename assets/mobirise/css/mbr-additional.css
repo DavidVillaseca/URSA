@@ -10086,19 +10086,29 @@ body {
   padding-bottom: 30px;
   background-color: #2e2e2e;
 }
-.cid-rD5oB1oAX4 {
-  padding-top: 120px;
-  padding-bottom: 90px;
-  background-color: #232323;
+.cid-rDKmVTKNqz {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
 }
-.cid-rD5oB1oAX4 .mbr-section-subtitle {
-  color: #767676;
+.cid-rDKmVTKNqz .line {
+  background-color: #674274;
+  color: #674274;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
 }
-.cid-rD5oB1oAX4 .btn {
-  margin: 0 0 .5rem 0;
+.cid-rDKmVTKNqz .section-text {
+  padding: 2rem 0;
+  text-align: left;
 }
-.cid-rD5oB1oAX4 H2 {
-  color: #ffffff;
+.cid-rDKmVTKNqz .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rDKmVTKNqz .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-rDKdi7yHCn {
   padding-top: 60px;
@@ -10174,6 +10184,20 @@ body {
 .cid-rDKeNTmIGB .mbr-text,
 .cid-rDKeNTmIGB blockquote {
   color: #767676;
+}
+.cid-rD5oB1oAX4 {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  background-color: #232323;
+}
+.cid-rD5oB1oAX4 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rD5oB1oAX4 .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-rD5oB1oAX4 H2 {
+  color: #ffffff;
 }
 .cid-rD5oPrU18R {
   padding-top: 90px;
@@ -10363,6 +10387,34 @@ body {
   .cid-rD5oPWSEbO .card-img span {
     font-size: 40px !important;
   }
+}
+.cid-rDKmoBFcZu {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
+}
+.cid-rDKmoBFcZu .line {
+  background-color: #674274;
+  color: #674274;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rDKmoBFcZu .section-text {
+  padding: 2rem 0;
+}
+.cid-rDKmoBFcZu .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rDKmoBFcZu .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-rDKmNVUo6g {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #674274, #073b4c);
 }
 .cid-rB9yyNjqJ3 .navbar {
   background: #000000;
@@ -10762,6 +10814,27 @@ body {
 .cid-rB9yyNjqJ3 .nav-link:hover,
 .cid-rB9yyNjqJ3 .dropdown-item:hover {
   color: #767676 !important;
+}
+.cid-rDKmsXm7MR {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-rDKmsXm7MR .image-block {
+  margin: auto;
+}
+.cid-rDKmsXm7MR figcaption {
+  position: relative;
+}
+.cid-rDKmsXm7MR figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rDKmsXm7MR .image-block {
+    width: 100% !important;
+  }
 }
 .cid-rDl1WCudXw {
   padding-top: 30px;
