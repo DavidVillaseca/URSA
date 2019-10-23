@@ -15488,6 +15488,20 @@ body {
     height: calc(100% - 56px);
   }
 }
+.cid-rFKbUe5yLd {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #ffffff, #ffffff);
+}
+.cid-rFKbUe5yLd .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-rFKbUe5yLd .video-block {
+    width: 100% !important;
+  }
+}
 .cid-rFK1OwsCp8 {
   padding-top: 60px;
   padding-bottom: 60px;
