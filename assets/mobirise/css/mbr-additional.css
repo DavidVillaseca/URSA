@@ -15972,6 +15972,56 @@ body {
   border-radius: 50%;
   content: '✓';
 }
+.cid-rGoYN68NUS {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background: #ffffff;
+}
+.cid-rGoYN68NUS .images-container.container-fluid {
+  padding: 0;
+}
+.cid-rGoYN68NUS .media-container-row {
+  margin: 0 auto;
+  align-items: stretch;
+  -webkit-align-items: stretch;
+}
+.cid-rGoYN68NUS .media-container-row .img-item {
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+}
+.cid-rGoYN68NUS .media-container-row .img-item img {
+  width: 100%;
+  min-height: 1px;
+}
+.cid-rGoYN68NUS .media-container-row .img-item .img-caption {
+  background: #ffffff;
+  z-index: 2;
+  padding: 1rem 1rem;
+  word-break: break-word;
+}
+.cid-rGoYN68NUS .media-container-row .img-item .img-caption p {
+  margin-bottom: 0;
+}
+.cid-rGoYN68NUS .media-container-row .img-item.item1 {
+  padding: 0 2rem 0 0;
+}
+@media (max-width: 992px) {
+  .cid-rGoYN68NUS .img-item {
+    width: 100% !important;
+  }
+  .cid-rGoYN68NUS .img-item.item1 {
+    width: 100%;
+    flex-basis: initial !important;
+    padding: 0 0 2rem 0 !important;
+    -webkit-flex-basis: initial !important;
+  }
+}
 .cid-rGoTBSdqk5 {
   padding-top: 0px;
   padding-bottom: 15px;
@@ -16005,6 +16055,56 @@ body {
   border-radius: 50%;
   content: '✓';
 }
+.cid-rGoYNsksBv {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background: #ffffff;
+}
+.cid-rGoYNsksBv .images-container.container-fluid {
+  padding: 0;
+}
+.cid-rGoYNsksBv .media-container-row {
+  margin: 0 auto;
+  align-items: stretch;
+  -webkit-align-items: stretch;
+}
+.cid-rGoYNsksBv .media-container-row .img-item {
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+}
+.cid-rGoYNsksBv .media-container-row .img-item img {
+  width: 100%;
+  min-height: 1px;
+}
+.cid-rGoYNsksBv .media-container-row .img-item .img-caption {
+  background: #ffffff;
+  z-index: 2;
+  padding: 1rem 1rem;
+  word-break: break-word;
+}
+.cid-rGoYNsksBv .media-container-row .img-item .img-caption p {
+  margin-bottom: 0;
+}
+.cid-rGoYNsksBv .media-container-row .img-item.item1 {
+  padding: 0 2rem 0 0;
+}
+@media (max-width: 992px) {
+  .cid-rGoYNsksBv .img-item {
+    width: 100% !important;
+  }
+  .cid-rGoYNsksBv .img-item.item1 {
+    width: 100%;
+    flex-basis: initial !important;
+    padding: 0 0 2rem 0 !important;
+    -webkit-flex-basis: initial !important;
+  }
+}
 .cid-rGoWsPsOFo {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -16037,6 +16137,56 @@ body {
   height: 25px;
   border-radius: 50%;
   content: '✓';
+}
+.cid-rGoYOK82l7 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background: #ffffff;
+}
+.cid-rGoYOK82l7 .images-container.container-fluid {
+  padding: 0;
+}
+.cid-rGoYOK82l7 .media-container-row {
+  margin: 0 auto;
+  align-items: stretch;
+  -webkit-align-items: stretch;
+}
+.cid-rGoYOK82l7 .media-container-row .img-item {
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+}
+.cid-rGoYOK82l7 .media-container-row .img-item img {
+  width: 100%;
+  min-height: 1px;
+}
+.cid-rGoYOK82l7 .media-container-row .img-item .img-caption {
+  background: #ffffff;
+  z-index: 2;
+  padding: 1rem 1rem;
+  word-break: break-word;
+}
+.cid-rGoYOK82l7 .media-container-row .img-item .img-caption p {
+  margin-bottom: 0;
+}
+.cid-rGoYOK82l7 .media-container-row .img-item.item1 {
+  padding: 0 2rem 0 0;
+}
+@media (max-width: 992px) {
+  .cid-rGoYOK82l7 .img-item {
+    width: 100% !important;
+  }
+  .cid-rGoYOK82l7 .img-item.item1 {
+    width: 100%;
+    flex-basis: initial !important;
+    padding: 0 0 2rem 0 !important;
+    -webkit-flex-basis: initial !important;
+  }
 }
 .cid-rGnvUZZh7W {
   padding-top: 30px;
