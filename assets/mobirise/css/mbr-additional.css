@@ -15939,22 +15939,22 @@ body {
     width: 100% !important;
   }
 }
-.cid-rGoLFnaAJv {
+.cid-rGoTBrDIH3 {
   padding-top: 60px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-rGoLFnaAJv .counter-container {
+.cid-rGoTBrDIH3 .counter-container {
   color: #767676;
 }
-.cid-rGoLFnaAJv .counter-container ul {
+.cid-rGoTBrDIH3 .counter-container ul {
   margin-bottom: 0;
 }
-.cid-rGoLFnaAJv .counter-container ul li {
+.cid-rGoTBrDIH3 .counter-container ul li {
   margin-bottom: 1rem;
   list-style: none;
 }
-.cid-rGoLFnaAJv .counter-container ul li:before {
+.cid-rGoTBrDIH3 .counter-container ul li:before {
   position: absolute;
   left: 0px;
   margin-top: -10px;
@@ -15972,22 +15972,55 @@ body {
   border-radius: 50%;
   content: '✓';
 }
-.cid-rGoLGg0BV7 {
+.cid-rGoTBSdqk5 {
   padding-top: 0px;
-  padding-bottom: 60px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
-.cid-rGoLGg0BV7 .counter-container {
+.cid-rGoTBSdqk5 .counter-container {
   color: #767676;
 }
-.cid-rGoLGg0BV7 .counter-container ul {
+.cid-rGoTBSdqk5 .counter-container ul {
   margin-bottom: 0;
 }
-.cid-rGoLGg0BV7 .counter-container ul li {
+.cid-rGoTBSdqk5 .counter-container ul li {
   margin-bottom: 1rem;
   list-style: none;
 }
-.cid-rGoLGg0BV7 .counter-container ul li:before {
+.cid-rGoTBSdqk5 .counter-container ul li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  padding-top: 3px;
+  content: '';
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 20px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #149dcc;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  content: '✓';
+}
+.cid-rGoWsPsOFo {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-rGoWsPsOFo .counter-container {
+  color: #767676;
+}
+.cid-rGoWsPsOFo .counter-container ul {
+  margin-bottom: 0;
+}
+.cid-rGoWsPsOFo .counter-container ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.cid-rGoWsPsOFo .counter-container ul li:before {
   position: absolute;
   left: 0px;
   margin-top: -10px;
